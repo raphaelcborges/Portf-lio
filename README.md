@@ -1,31 +1,82 @@
-🚀 Projetos em Destaque
-🌍 Voymatch
-O "Tinder das viagens". Uma plataforma para dar match em destinos com parceiros ou amigos.
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Raphael Borges</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
 
-Status: Live (Produção)
+    <header class="py-16 px-6 text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4">Raphael Borges</h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+            Editor de Vídeo & Estudante de Engenharia de Controle e Automação (UFMG). 
+            Unindo tecnologia, dados e criatividade.
+        </p>
+    </header>
 
-Tech: [Liste aqui as tecnologias principais, ex: TypeScript, React, Node.js]
+    <main class="max-w-6xl mx-auto px-6 pb-20">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 shadow-2xl transition-transform hover:scale-105">
+                <div class="h-48 bg-gradient-to-r from-pink-500 to-orange-400 flex items-center justify-center">
+                    <img src="assets/voymatch-thumb.png" alt="Voymatch" class="object-cover w-full h-full opacity-80">
+                </div>
+                <div class="p-6">
+                    <span class="text-xs font-bold uppercase tracking-widest text-orange-400">Web App / Programação</span>
+                    <h3 class="text-2xl font-bold mt-2 mb-4 text-white">Voymatch</h3>
+                    <p class="text-gray-400 text-sm mb-6">
+                        O "Tinder das viagens". Uma plataforma completa para match de destinos com amigos ou parceiros.
+                    </p>
+                    <a href="https://voymatch.com.br" target="_blank" class="block text-center bg-white text-gray-900 font-bold py-3 rounded-lg hover:bg-orange-400 hover:text-white transition">
+                        Acessar Site Oficial
+                    </a>
+                </div>
+            </div>
 
-Link: Acesse o site oficial aqui
+            <div class="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 shadow-2xl transition-transform hover:scale-105">
+                <div class="h-48 bg-blue-700 flex items-center justify-center text-5xl">
+                    <img src="assets/cruzeiro-bi.png" alt="Dashboard Cruzeiro" class="object-cover w-full h-full opacity-80">
+                </div>
+                <div class="p-6">
+                    <span class="text-xs font-bold uppercase tracking-widest text-blue-400">Data Analytics</span>
+                    <h3 class="text-2xl font-bold mt-2 mb-4 text-white">Análise Cruzeiro EC</h3>
+                    <p class="text-gray-400 text-sm mb-6">
+                        Dashboard interativo para análise de performance técnica e estatísticas do time de futebol.
+                    </p>
+                    <a href="LINK_DO_SEU_DASHBOARD_OU_PDF" target="_blank" class="block text-center border border-blue-400 text-blue-400 font-bold py-3 rounded-lg hover:bg-blue-400 hover:text-white transition">
+                        Ver Dashboard
+                    </a>
+                </div>
+            </div>
 
-📊 Data Analytics & Business Intelligence (Power BI)
-Projetos de análise de dados aplicados a esportes e eSports.
+            <div class="bg-gray-800 rounded-2xl overflow-hidden border border-gray-700 shadow-2xl transition-transform hover:scale-105">
+                <div class="h-48 bg-red-700 flex items-center justify-center">
+                    <img src="assets/pain-bi.png" alt="Dashboard LoL" class="object-cover w-full h-full opacity-80">
+                </div>
+                <div class="p-6">
+                    <span class="text-xs font-bold uppercase tracking-widest text-red-400">Data Analytics / eSports</span>
+                    <h3 class="text-2xl font-bold mt-2 mb-4 text-white">CBLOL & paiN Gaming</h3>
+                    <p class="text-gray-400 text-sm mb-6">
+                        Monitoramento de dados competitivos focado no cenário brasileiro de League of Legends.
+                    </p>
+                    <a href="LINK_DO_SEU_DASHBOARD_OU_PDF" target="_blank" class="block text-center border border-red-400 text-red-400 font-bold py-3 rounded-lg hover:bg-red-400 hover:text-white transition">
+                        Ver Dashboard
+                    </a>
+                </div>
+            </div>
 
-Dashboard Cruzeiro EC: Análise detalhada de performance e estatísticas do time.
+        </div>
+    </main>
 
-[Ver Prints/PDF do Projeto] (Link para uma pasta no seu GitHub com as imagens)
+    <footer class="text-center py-10 text-gray-500 border-t border-gray-800">
+        <p>&copy; 2026 Raphael Borges. Belo Horizonte, MG.</p>
+    </footer>
 
-CBLOL & paiN Gaming: Monitoramento do cenário competitivo de League of Legends.
-
-[Ver Prints/PDF do Projeto]
-
-Como fazer isso na prática (Passo a Passo)
-Crie o Repositório do Perfil: Vá em New Repository, coloque o nome exatamente igual ao seu nome de usuário (ex: raphaelborges/raphaelborges) e marque como Public. Adicione um arquivo README.
-
-Para os Projetos de Power BI: * Crie um repositório chamado power-bi-dashboards.
-
-Como você não vai subir o código do Voymatch, suba aqui apenas as screenshots em alta qualidade (ou um PDF) dos seus dashboards do Cruzeiro e da paiN.
-
-No README desse repositório, coloque as imagens direto no texto para quem clicar já ver o design de cara.
-
-Link Externo: No README principal do seu perfil, você coloca o link direto para o voymatch.com.br. Assim, o recrutador vê que você tem um produto real no ar, mesmo sem ver o código fonte.
+</body>
+</html>
